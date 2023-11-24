@@ -7,18 +7,19 @@ for(let i=0;i<length_array;i++){
 console.log("array");
 console.log(array);
 if(length_array>=5){
-    console.log(array.slice(length_array-5,length_array));
+    console.log(array.slice(length_array-5));
 }
 else {
-    console.log("INSERISCI UN NUMERO DI ELEMTI MAGGIORE O UGUALE A 5")
+    console.log(array);
+    console.log("INSERISCI UN NUMERO DI ELEMENTI MAGGIORE O UGUALE A 5")
 }
 
 //bonus
 let coda = parseInt(prompt("numero elementi da stampare"));
-console.log("elenti da stampare: ultimi "+coda);
+console.log("elementi da stampare: ultimi "+coda);
 if(coda<=length_array){
-    console.log(array.slice(length_array-coda,length_array));
+    console.log(array.slice(length_array-coda));
 }
 else{
-    console.log("INSERISCI UN NUMERO DI ELEMTI MINORE O UGUALE ALLA LUNGHEZZA DELL'ARRAY")
+    console.log("INSERISCI UN NUMERO DI ELEMENTI MINORE O UGUALE ALLA LUNGHEZZA DELL'ARRAY")
 }
