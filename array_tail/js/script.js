@@ -14,7 +14,7 @@ else {
 }
 
 //bonus
-let = coda = parseInt(prompt("numero elementi da stampare"));
+let coda = parseInt(prompt("numero elementi da stampare"));
 console.log("elenti da stampare: ultimi "+coda);
 if(coda<=length_array){
     console.log(array.slice(length_array-coda,length_array));
